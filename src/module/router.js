@@ -41,8 +41,7 @@ class Router {
       }
     }
 
-    // Se nenhuma rota correspondente for encontrada, envie uma resposta 404
-    response.send("404 Not Found");
+    response.sendFile('./src/pages/error.html')
   }
 }
 
