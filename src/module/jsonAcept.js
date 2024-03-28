@@ -1,4 +1,3 @@
-// jsonMiddleware.js
 function jsonMiddleware(req, res, advace) {
   if (req.headers["content-type"] === "application/json") {
     let data = "";
